@@ -10,9 +10,12 @@ dependencies:
 - name: infrastructure
   repository: https://activiti.github.io/activiti-cloud-charts/
   version: 0.2.0
-- name: ttc-connectors-dummytwitter
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 1.0.42
 - name: rabbitmq
   repository: https://kubernetes-charts.storage.googleapis.com
   version: 0.8.0
+- name: ttc-connectors-dummytwitter
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.42
+- name: ttc-rb-english-campaign
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.2
