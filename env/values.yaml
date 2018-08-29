@@ -53,4 +53,10 @@ infrastructure:
         nginx.ingress.kubernetes.io/enable-cors: true
         nginx.ingress.kubernetes.io/cors-allow-headers: "*"
         nginx.ingress.kubernetes.io/x-forwarded-prefix: true
-
+        
+rabbitmq:
+  rabbitmq:
+    username: "guest"
+    password: "guest"
+  ingress:
+    enabled: true
