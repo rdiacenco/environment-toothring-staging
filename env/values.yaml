@@ -46,7 +46,7 @@ infrastructure:
   activiti-cloud-gateway:
     ingress:
       enabled: true
-      hostName: "activiti-cloud-gateway.jx-staging.{DOMAIN}"
+      hostName: "activiti-cloud-gateway.jx-staging.35.221.208.174.nip.io"
       annotations:
         kubernetes.io/ingress.class: nginx
         nginx.ingress.kubernetes.io/rewrite-target: /
